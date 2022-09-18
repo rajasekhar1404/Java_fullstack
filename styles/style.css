@@ -1,0 +1,44 @@
+body{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.frame{
+    height: 660px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 15px solid #B0BCDE;
+}
+#parentdiv {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: #4472C4;
+    border-radius: 50%;
+    margin: auto;
+    top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #parentdiv p{
+    text-align: center;
+  }
+  
+  .div2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #4472C4;
+    border-radius: 50%;
+  }
