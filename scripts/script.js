@@ -10,7 +10,7 @@ function Main(innertext, source) {
       var childdiv = document.createElement('div');
       childdiv.className = 'div2';
       var pagename = location.pathname.substring(location.pathname.lastIndexOf("/") + 1); // for html file name
-      if(pagename == "index.html") {
+      if(pagename == "index.html" || pagename == '') {
         childdiv.innerHTML = '<a href='+source[i]+'>'+"<p>"+innertext[i]+"</p>"+'</a>';        
       } else {
         childdiv.innerHTML = '<a href='+source[i]+' target="_blank">'+"<p>"+innertext[i]+"</p>"+'</a>';
